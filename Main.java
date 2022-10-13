@@ -5,8 +5,7 @@ import java.util.Collections;
 
 public class Main {
 
-    public static int[] sortNumbers(int[] numbers)
-    {
+    public static int[] sortNumbers(int[] numbers) {
 
         int length = numbers.length;
 
@@ -38,17 +37,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {7,8,10,34,28,65,99,4};
+        int[] numbers = {7, 8, 10, 34, 28, 65, 99, 4};
 
         numbers = sortNumbers(numbers);
 
         System.out.println("Sorted array: "
                 + Arrays.toString(numbers));
 
-        search(numbers,4);
-        }
-
+        search(numbers, 4);
     }
+
+}
 
 
 
